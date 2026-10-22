@@ -11,13 +11,18 @@
 
 - 仓库：https://github.com/Monologue-del/DailyNews
 - 简报列表：https://Monologue-del.github.io/DailyNews/
-- 单期示例：https://Monologue-del.github.io/DailyNews/每日新闻简报-2026-10-22.html
+- 单期示例：https://Monologue-del.github.io/DailyNews/daily20261022.html
 
 ## 文件命名规范
 
 ```
-每日新闻简报-YYYY-MM-DD.html          # 默认画像
-每日新闻简报-YYYY-MM-DD-{居住地简称}.html  # 自定义画像（避免覆盖默认）
+dailyYYYYMMDD.html            # 默认画像（如 daily20261022.html）
+dailyYYYYMMDD-{居住地简称}.html   # 自定义画像（避免覆盖默认，如 daily20261022-shanghai.html）
 ```
+
+## 定时任务推送形态
+
+- 微信消息：引导语 + 短链接（`https://Monologue-del.github.io/DailyNews/dailyYYYYMMDD.html`）
+- 历史简报随每次推送自动归档到本仓库，可用短链接随时回看
 
 > AI生成

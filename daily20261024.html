@@ -3,165 +3,173 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>每日新闻简报 · 2026-10-24</title>
+<title>10月24日 · 星期六｜每日新闻简报</title>
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { background: #fafafa; color: #333; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 15px; line-height: 1.7; }
-  .wrap { max-width: 640px; margin: 0 auto; padding: 16px; }
-  header { background: #1f2d3d; color: #fff; border-radius: 12px; padding: 16px; margin-bottom: 14px; }
-  header .date { font-size: 19px; font-weight: 700; }
-  header .sub { font-size: 12.5px; color: #c3ccd9; margin-top: 2px; }
-  .card { background: #fff; border: 1px solid #e8e8e8; border-radius: 12px; padding: 16px; margin-bottom: 14px; }
-  .weather { background: #eef5ff; border: 1px solid #d8e7ff; }
-  .weather .now { font-size: 22px; font-weight: 700; color: #1a6feb; margin: 4px 0; }
-  .weather .meta { font-size: 13px; color: #555; margin-bottom: 10px; }
-  .advice { background: #fff; border: 1px solid #d8e7ff; border-radius: 8px; padding: 10px 12px; font-size: 14px; }
-  .advice .tag { display: inline-block; background: #1a6feb; color: #fff; font-size: 12px; padding: 1px 8px; border-radius: 999px; margin-bottom: 6px; }
-  .trend { font-size: 13px; color: #888; margin-top: 10px; }
-  h2.sec { font-size: 17px; font-weight: 700; margin-bottom: 12px; padding-left: 10px; border-left: 4px solid #1a6feb; }
-  h3.sub { font-size: 15px; font-weight: 700; color: #1a6feb; margin: 14px 0 6px; }
-  h3.sub::before { content: "▍"; margin-right: 2px; }
-  .news-item { padding: 10px 0; border-bottom: 1px dashed #eee; }
-  .news-item:last-child { border-bottom: none; }
-  .news-item .t { font-weight: 700; font-size: 15px; }
-  .news-item .d { font-size: 14px; color: #555; margin-top: 2px; }
-  .news-item .src { font-size: 12px; color: #888; margin-top: 3px; text-align: right; }
-  footer { font-size: 12px; color: #888; padding: 4px 4px 18px; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#fafafa; color:#333; font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; font-size:15px; line-height:1.7; }
+  .wrap { max-width:640px; margin:0 auto; padding:16px 16px 24px; }
+  header { background:#1f2430; color:#fff; border-radius:12px; padding:20px 16px; margin-bottom:12px; }
+  header .date { font-size:20px; font-weight:700; letter-spacing:1px; }
+  header .brand { font-size:13px; color:#b9c2d0; margin-top:2px; }
+  header .sub { font-size:12px; color:#8a94a6; margin-top:6px; }
+  .card { background:#fff; border:1px solid #e8e8e8; border-radius:12px; padding:16px; margin-bottom:12px; }
+  .card h2 { font-size:17px; color:#1a6feb; margin-bottom:12px; padding-left:8px; border-left:3px solid #1a6feb; line-height:1.4; }
+  /* 天气卡 */
+  .weather { background:#eef5ff; border-color:#d9e8fb; }
+  .weather .place { font-size:12px; color:#6b7c95; margin-bottom:4px; }
+  .weather .now { font-size:22px; font-weight:700; color:#1a6feb; line-height:1.4; }
+  .weather .detail { font-size:13px; color:#555; margin-top:6px; }
+  .weather .trend { font-size:13px; color:#555; margin-top:4px; }
+  .weather .dress { font-size:13px; color:#333; margin-top:10px; padding:8px 10px; background:rgba(255,255,255,.75); border-radius:8px; }
+  .weather .dress .tag { display:inline-block; font-size:12px; color:#1a6feb; font-weight:700; margin-right:6px; }
+  /* 新闻条目 */
+  .sec-title { font-size:15px; font-weight:700; color:#1a6feb; margin:16px 0 8px; }
+  .sec-title::before { content:"▍"; color:#1a6feb; margin-right:2px; }
+  .item { padding:8px 0; border-bottom:1px dashed #eee; }
+  .item:last-child { border-bottom:none; padding-bottom:0; }
+  .item strong { display:block; font-size:15px; line-height:1.5; margin-bottom:2px; }
+  .item .sum { font-size:14px; color:#555; }
+  .item .src { font-size:12px; color:#888; text-align:right; margin-top:2px; }
+  footer { padding:4px 4px 0; }
+  footer p { font-size:12px; color:#888; line-height:1.6; }
 </style>
 </head>
 <body>
 <div class="wrap">
 
-<header>
-  <div class="date">10月24日 · 星期六</div>
-  <div class="sub">每日新闻简报 ｜ 读完约 8 分钟 ｜ 覆盖近 24 小时公开报道</div>
-</header>
+  <header>
+    <div class="date">10月24日 · 星期六</div>
+    <div class="brand">每日新闻简报</div>
+    <div class="sub">读完约 5 分钟 · 覆盖近24小时公开资讯</div>
+  </header>
 
-<div class="card weather">
-  <h2 class="sec">今日天气</h2>
-  <div class="now">阴转小雨 · 18~23°C</div>
-  <div class="meta">两江新区（主城区）｜今天白天阴天间多云 19~23°C，夜间阴转间断小雨 18~21°C｜今晨湿度约 82%｜微风～西北风 3 级｜夜间起雨水自西向东铺开</div>
-  <div class="advice">
-    <span class="tag">穿搭建议</span><br>
-    长袖为主、早出晚归加薄外套；重庆湿冷体感比实际低 2~3°C，早晚建议按低一档准备。今夜起转雨、周末雨水增多，通勤包里备伞。
-  </div>
-  <div class="trend">未来趋势：24日夜间至26日早晨有一次降雨降温过程；明天（周日）阴有间断小雨，周一各地小到中雨，下周初气温走低。</div>
-</div>
+  <section class="card weather">
+    <h2>今日天气</h2>
+    <div class="place">两江新区（主城区）</div>
+    <div class="now">阴天间多云 19~23°C</div>
+    <div class="detail">今晨6时城区晴、19°C，相对湿度82%，微风；今天夜间阴转间断小雨 18~21°C。空气质量优（AQI 36，PM2.5 为 25）。</div>
+    <div class="trend">未来趋势：未来三天降雨增多，26日夜间至27日部分地区中雨，27日气温降至20°C以下，冷空气26日启程。</div>
+    <div class="dress"><span class="tag">穿搭建议</span>长袖为主、早晚加薄外套；湿度较大体感偏凉一二度，夜间转雨，包里备伞。</div>
+  </section>
 
-<div class="card">
-  <h2 class="sec">今日要闻</h2>
-  <div class="news-item">
-    <div class="t">西藏巴青 7.0 级地震已致 18 人遇难，各方力量全力搜救</div>
-    <div class="d">22 日 22 时 33 分西藏那曲市巴青县发生 7.0 级地震（震源深度 10 千米），已致 18 人遇难、11 人重伤、21 人轻伤；习近平总书记作出重要指示，西藏启动二级应急响应，347 名消防救援人员已抵达震中搜救。</div>
-    <div class="src">新华社 / 央视新闻 / 第一财经 · 23日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">中央政治局会议审议二十届中央第七轮巡视综合报告</div>
-    <div class="d">中共中央政治局 23 日召开会议，审议《关于二十届中央第七轮巡视情况的综合报告》，习近平总书记主持会议。</div>
-    <div class="src">央视新闻 · 23日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">德国总统施泰因迈尔将于 27-31 日访华</div>
-    <div class="d">外交部宣布：应国家主席习近平邀请，德国总统施泰因迈尔将于 10 月 27 日至 31 日对中国进行国事访问。</div>
-    <div class="src">外交部 / 澎湃新闻 · 24日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">央行 26 日将开展 7000 亿元 MLF 操作</div>
-    <div class="d">为保持银行体系流动性充裕，央行将于 10 月 26 日以固定数量、利率招标、多重价位中标方式开展 1 年期 7000 亿元 MLF 操作。</div>
-    <div class="src">中国人民银行 / 澎湃新闻 · 23日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">五家基金公司拟自购 13 亿元，认购首批主动 ETF</div>
-    <div class="d">易方达、华夏、富国、汇添富等各以 2 亿元固有资金认购旗下主动 ETF，加上摩根基金 5 亿元计划，合计拟自购 13 亿元，释放机构稳市信号。</div>
-    <div class="src">财联社 · 23日</div>
-  </div>
-</div>
+  <section class="card">
+    <h2>今日要闻</h2>
+    <div class="item">
+      <strong>中央政治局会议审议巡视综合报告</strong>
+      <p class="sum">中共中央政治局10月23日召开会议，审议《关于二十届中央第七轮巡视情况的综合报告》，要求严肃认真解决巡视发现的问题；二十届中央第八轮巡视对象名单同步公布。</p>
+      <p class="src">新华社 · 10.23-24</p>
+    </div>
+    <div class="item">
+      <strong>国常会研究统筹人口与经济社会发展</strong>
+      <p class="sum">国务院总理李强10月23日主持召开国务院常务会议，研究统筹人口与经济社会发展有关工作，并听取推进全国服务业大会部署落实情况汇报。</p>
+      <p class="src">新华社 · 10.23</p>
+    </div>
+    <div class="item">
+      <strong>商务部回应美新版对外投资限制规则</strong>
+      <p class="sum">10月24日，商务部新闻发言人就美发布新版对外投资限制拟议规则答记者问，指其歧视性扩大对华投资限制范围、加大限制力度，是典型的泛化国家安全做法。</p>
+      <p class="src">每日经济新闻 · 10.24</p>
+    </div>
+    <div class="item">
+      <strong>俄乌同意在奥列什基暂时停火</strong>
+      <p class="sum">据新华财经，白宫称俄乌同意在奥列什基暂时停火；俄方表示俄美乌会谈将于11月上旬在阿布扎比举行。</p>
+      <p class="src">新华财经 · 10.24</p>
+    </div>
+    <div class="item">
+      <strong>亚残运会闭幕 中国207金创境外最好成绩</strong>
+      <p class="sum">第五届亚洲残疾人运动会10月24日在日本名古屋闭幕，中国体育代表团收获207金117银111铜、共435枚奖牌，连续五届位居金牌榜和奖牌榜首位，并打破11项世界纪录。</p>
+      <p class="src">新华社 · 10.24</p>
+    </div>
+  </section>
 
-<div class="card">
-  <h2 class="sec">相关资讯</h2>
+  <section class="card">
+    <h2>相关资讯</h2>
 
-  <h3 class="sub">AI动态</h3>
-  <div class="news-item">
-    <div class="t">DeepSeek 拟完成约 1000 亿元融资，腾讯、宁德时代出资最多</div>
-    <div class="d">据上海证券报等多信源交叉求证，DeepSeek 新一轮融资拟筹约 1000 亿元（约 150 亿美元），募资目标由最初 500 亿元多轮上调，腾讯与宁德时代为最大出资方，交易预计数日内完成；各方暂未公开回应。</div>
-    <div class="src">上海证券报 / 21世纪经济报道 · 22-23日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">信通院：国内大模型词元服务吞吐量较去年翻倍</div>
-    <div class="d">中国信通院等联合发布《大模型词元服务性能监测报告（2026年）》：国内大模型词元服务每秒吞吐量较 2025 年实现翻倍，但仍低于国外典型模型，首词时延有所增加、国内外趋势一致。</div>
-    <div class="src">中国信通院 / 腾讯新闻 · 23日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">MiniMax 开源 M3.1 Flash，港股 AI 板块集体回暖</div>
-    <div class="d">MiniMax 23 日开源 M3.1 Flash 模型，上线 72 小时处理超 100 万亿 Token；当日港股恒生科技指数涨超 2%，MiniMax 涨超 13%、智谱涨超 7%。</div>
-    <div class="src">新浪科技 · 23日</div>
-  </div>
+    <div class="sec-title">AI动态</div>
+    <div class="item">
+      <strong>月之暗面发布Kimi K3.1 Pro</strong>
+      <p class="sum">10月24日凌晨，月之暗面发布3万亿参数级开源大模型Kimi K3.1 Pro，支持100万Token上下文窗口，蝉联全球参数规模最大的开源模型。</p>
+      <p class="src">中新社 · 10.24</p>
+    </div>
+    <div class="item">
+      <strong>国办印发AI就业友好型发展意见</strong>
+      <p class="sum">国务院办公厅印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》，提出有效减缓人工智能应用带来的就业替代影响。</p>
+      <p class="src">新华社 · 10.24</p>
+    </div>
+    <div class="item">
+      <strong>OpenAI宣布封闭系统训练前沿模型</strong>
+      <p class="sum">据财联社，OpenAI 10月24日表示将在完全不接入互联网的封闭系统中训练前沿AI模型，以进一步保障训练安全。</p>
+      <p class="src">财联社 · 10.24</p>
+    </div>
 
-  <h3 class="sub">互联网动态</h3>
-  <div class="news-item">
-    <div class="t">iPhone Duo 正式发售，官网预订排到明年 1 月</div>
-    <div class="d">iPhone Duo 23 日开卖，发售当天官网预订发货周期已排至明年 1 月；支付宝等主流 App 已适配大屏折叠体验。</div>
-    <div class="src">快科技 / 科技每日早报 · 23日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">东方财富前三季净利 119 亿元、同比增长 31%</div>
-    <div class="d">东方财富前三季度营收 155.6 亿元（+34%）、净利 119 亿元（+30.9%）；单季 Q3 营收 50.5 亿元（+6.8%）、净利 38.4 亿元，增速较上半年放缓。</div>
-    <div class="src">雷递网 · 23日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">特斯拉 Optimus 人形机器人开启早期量产</div>
-    <div class="d">特斯拉 Q3 财报电话会披露，Optimus 已在弗里蒙特工厂大批量产线开启早期生产；Q3 资本开支 47.3 亿美元，大幅低于华尔街 79.5 亿美元预期。</div>
-    <div class="src">财联社 / 科创未来 · 22-23日</div>
-  </div>
+    <div class="sec-title">互联网动态</div>
+    <div class="item">
+      <strong>AWS算力产能已被预订至2028年</strong>
+      <p class="sum">亚马逊CEO贾西表示，AWS绝大部分核心基础设施产能已被预订至2028年，市场对云计算与AI算力的需求空前旺盛。</p>
+      <p class="src">网易科技 · 10.24</p>
+    </div>
+    <div class="item">
+      <strong>企业微信回应账号群发色情链接</strong>
+      <p class="sum">10月24日多个企业微信客服账号向客户发送疑似色情引流信息，官方回应称系某第三方外挂软件服务被攻破所致，已强制下线受影响账号并封禁相关链接。</p>
+      <p class="src">新浪科技 · 10.24</p>
+    </div>
+    <div class="item">
+      <strong>AIGC广告治理蓝皮书发布</strong>
+      <p class="sum">第33届中国国际广告节上，中国标准化研究院联合巨量引擎发布《AIGC时代互联网广告治理蓝皮书》，提出"以AI治AI"的全链路治理框架。</p>
+      <p class="src">新浪财经 · 10.24</p>
+    </div>
 
-  <h3 class="sub">经济动态</h3>
-  <div class="news-item">
-    <div class="t">A股上演 V 型反转：盘中破 3600 点、收盘三大指数集体收涨</div>
-    <div class="d">23 日沪指早盘一度跌破 3600 点、最低 3574.27 点（近一年新低），半日超 4800 只个股下跌；午后资金绝地反击，收盘沪指 3690.48 点（+0.89%）、深成指 +2.79%、创业板指 +4.16%，成交超 1.95 万亿元。</div>
-    <div class="src">金投网 / 东方财富 · 23日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">10 年期美债收益率单日暴跌 19 个基点</div>
-    <div class="d">AI 股动荡引发避险交易，基准 10 年期美债收益率单日下挫 19 个基点，创 2023 年硅谷银行事件以来最大单日跌幅；市场对美联储年内继续加息的预期明显降温。</div>
-    <div class="src">财联社 / 新浪财经 · 23日</div>
-  </div>
+    <div class="sec-title">经济动态</div>
+    <div class="item">
+      <strong>IMF上调2026年全球增长预期至3.1%</strong>
+      <p class="sum">IMF最新《世界经济展望》小幅上调全球增长预期，称AI投资拉动部分发达经济体，但中东冲突推高能源通胀、新兴市场承压，全球增长分化加剧。</p>
+      <p class="src">环球热点 · 10.24</p>
+    </div>
+    <div class="item">
+      <strong>美股三大指数收跌 油价创4月来新高</strong>
+      <p class="sum">受地缘局势升温影响，周五道指跌1.23%报52215.16点，标普500跌0.52%，纳指跌0.21%；布伦特原油创4月以来新高。</p>
+      <p class="src">财联社 · 10.24</p>
+    </div>
+    <div class="item">
+      <strong>证监会就私募母基金管理规定征求意见</strong>
+      <p class="sum">证监会10月23日起就《私募投资母基金管理规定》征求意见稿向社会公开征求意见，进一步规范私募投资母基金业务、促进其规范健康发展。</p>
+      <p class="src">证监会 · 10.23</p>
+    </div>
 
-  <h3 class="sub">运营商动态</h3>
-  <div class="news-item">
-    <div class="t">三大运营商+铁塔驰援西藏震区，退服基站全部恢复</div>
-    <div class="d">西藏地震后，中国电信、中国移动、中国联通及中国铁塔迅速启动应急通信保障；截至 23 日 10 时 30 分，巴青县因灾退服基站已全部恢复、通信能力回到震前水平，中国电信累计出动 10 辆应急通信车、25 名保障人员。</div>
-    <div class="src">新华社 / 工信部 · 23日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">iPhone Duo 首发，三大运营商进驻苹果门店办 eSIM</div>
-    <div class="d">iPhone Duo 发售当天，苹果在全国 Apple Store 安排移动、联通、电信工作人员为顾客现场办理 eSIM 激活；机构预估下半年 eSIM 手机市场规模将迎来约 20 倍增长、销量有望突破 2000 万台。</div>
-    <div class="src">快科技 / 微博 · 23日</div>
-  </div>
+    <div class="sec-title">运营商动态</div>
+    <div class="item">
+      <strong>三大运营商抢通西藏震区通信</strong>
+      <p class="sum">西藏那曲巴青县10月22日晚发生7.0级地震后，中国电信、移动、联通及铁塔连夜组织抢修，截至23日10时30分震区退服基站已全部恢复，通信能力回到震前水平。</p>
+      <p class="src">新华网 · 10.23</p>
+    </div>
+    <div class="item">
+      <strong>移动云（重庆）Token中心发布</strong>
+      <p class="sum">10月23日移动云MoMA生态论坛在渝举办，移动云（重庆）Token中心正式发布；中国移动从AIDC、算力供给、Token中心、AI能力底座四方面布局，打造"AI水电"式普惠算力底座。</p>
+      <p class="src">中国新闻网 · 10.24</p>
+    </div>
+    <div class="item">
+      <strong>国行iPhone Duo双eSIM开启办理</strong>
+      <p class="sum">国行iPhone Duo支持三大运营商双eSIM，首次开通需本人线下实名办理，Apple Store直营店有运营商驻场服务，购机当场即可办卡。</p>
+      <p class="src">新浪通信 · 10.24</p>
+    </div>
 
-  <h3 class="sub">重庆本地</h3>
-  <div class="news-item">
-    <div class="t">两江新区低空科普活动今日举行，低空经济主阵地再添场景</div>
-    <div class="d">24 日两江新区低空科普暨安全宣介活动在 SKLP 外广场举行，设低空设备展示、无人机装调演武、青少年无人机竞技等板块；两江新区低空企业存量及产业规模均居全市首位。</div>
-    <div class="src">两江新区管委会 / 华龙网 · 24日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">中山百货进重庆活动在观音桥商圈启幕</div>
-    <div class="d">23 日起为期两天的广货行天下·中山百货进重庆活动在两江新区观音桥商圈举行，为该项全国行动第 15 站，推动粤渝产业与消费协同。</div>
-    <div class="src">两江新区管委会 / 央广网 · 23日</div>
-  </div>
-  <div class="news-item">
-    <div class="t">第九届中国非遗博览会 11 月 6 日重庆启幕</div>
-    <div class="d">23 日市政府新闻办召开发布会：第九届中国非物质文化遗产博览会 11 月 6 日在渝举行，聚焦非遗保护传承与消费促进，市民可提前关注活动攻略。</div>
-    <div class="src">重庆市政府新闻办 / 上游新闻 · 23日</div>
-  </div>
-</div>
+    <div class="sec-title">重庆本地</div>
+    <div class="item">
+      <strong>韩国济州代表团访渝考察智能制造</strong>
+      <p class="sum">10月22日至24日，韩国济州21世纪韩中国际交流协会代表团一行14人赴渝，走进两江新区七腾机器人等企业，考察机器人与智能网联新能源汽车产业，推动两地产业合作。</p>
+      <p class="src">中新社 · 10.24</p>
+    </div>
+    <div class="item">
+      <strong>两江新区"两岁"企业闪耀WSBK赛场</strong>
+      <p class="sum">2024年在两江新区注册成立的张雪机车，获2026赛季世界超级摩托车锦标赛WorldSSP组别制造商年度第三，其法国车手德比斯获年度车手亚军。</p>
+      <p class="src">新浪财经 · 10.23</p>
+    </div>
+  </section>
 
-<footer>
-  数据截止：2026-10-24 14:00（覆盖近 24 小时公开报道）<br>
-  主要来源：重庆市气象台、中国天气网、新华社、央视新闻、第一财经、澎湃新闻、外交部、中国人民银行、财联社、上海证券报、21世纪经济报道、中国信通院、新浪科技、雷递网、快科技、金投网、东方财富、工信部、两江新区管委会、重庆市政府新闻办<br>
-  本期画像：默认（重庆两江新区 / 运营商经营数据分析 / AI·互联网·经济）<br>
-  本简报由 AI 整理生成 · 内容据公开信息梳理 · 仅供参考、非商用。
-</footer>
+  <footer>
+    <p>数据截止：2026年10月24日 23:50（重庆）</p>
+    <p>主要来源：中国天气网、重庆市气象台、沙坪坝区气象快报、新华社、中新社、财联社、每日经济新闻、新华网、中国新闻网、新浪财经</p>
+    <p>本简报由 AI 整理生成 · 内容据公开信息梳理 · 仅供参考、非商用</p>
+  </footer>
 
 </div>
 </body>
